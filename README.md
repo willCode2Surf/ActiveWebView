@@ -6,6 +6,7 @@ UIWebView bridge for JavaScript => Objective-C communication
 
 ### In Objective-C
 
+```
 - (void) viewDidLoad {
 	ActiveWebView *webView = [[ActiveWebView alloc] initWithFrame:self.view.frame]];
 	...
@@ -28,10 +29,11 @@ UIWebView bridge for JavaScript => Objective-C communication
     [alertView show];
 
 }
-
+```
 
 
 ### In Javascript:
 
+```
 ActiveWebView.call('showAlert', ['This is an alert', 'And this is a description'])
-
+```
