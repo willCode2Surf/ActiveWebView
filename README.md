@@ -35,5 +35,5 @@ UIWebView bridge for JavaScript => Objective-C communication
 ### In Javascript:
 
 ```
-ActiveWebView.call('showAlert', ['My Title', 'This is a description'])
+ActiveWebView.send('showAlert', ['My Title', 'This is a description'])
 ```

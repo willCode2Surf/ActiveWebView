@@ -1,7 +1,7 @@
 
 var ActiveWebView = {
 	
-  call: function(method, args) {
+  send: function(method, args) {
 
 	 var payload = JSON.stringify({
      arguments: args || []
